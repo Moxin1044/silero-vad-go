@@ -1,0 +1,10 @@
+# 编译产物
+*.exe
+vad_demo
+
+# 语音片段输出
+tmp/
+
+# IDE
+.idea/
+.vscode/
