@@ -14,18 +14,15 @@ Go 语言实现的 Silero VAD 语音活动检测，基于 ONNX Runtime 推理。
 
 ## 前置准备
 
-### 1. 获取 ONNX 模型
+### ONNX 模型
 
-```bash
-pip install silero_vad
-# 模型位于 silero_vad/data/silero_vad.onnx
-```
+仓库已内置 `silero_vad.onnx` 模型文件，无需额外下载。
 
-或从 [Releases](https://github.com/snakers4/silero-vad/releases) 下载 `silero_vad.onnx`。
+如需替换为其他版本，可从 [Releases](https://github.com/snakers4/silero-vad/releases) 下载覆盖。
 
-### 2. 获取 ONNX Runtime 库
+### ONNX Runtime 库
 
-从 [ONNX Runtime Releases](https://github.com/microsoft/onnxruntime/releases) 下载：
+仓库已内置 Windows 版 `onnxruntime.dll`。如需其他平台，从 [ONNX Runtime Releases](https://github.com/microsoft/onnxruntime/releases) 下载：
 
 | 平台 | 文件 | 放置位置 |
 |------|------|----------|
